@@ -7,6 +7,8 @@
 	function bsr_init() {
 		bsr_search_replace();
 		bsr_update_sliders();
+
+		$('#select_tables').resizable({containment: '#bsr-search-replace-form'});
 	}
 
 	/**

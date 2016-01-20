@@ -37,7 +37,7 @@ if ( ! defined( 'BSR_PATH' ) ) exit;
 			<tr>
 				<td><label for="select_tables"><strong><?php _e( 'Select tables', 'better-search-replace' ); ?></strong></label></td>
 				<td>
-					<div id="bsr-tables-wrap"><?php BSR_Admin::load_tables(); ?></div>
+					<?php BSR_Admin::load_tables(); ?>
 					<p class="description"><?php _e( 'Select multiple tables with Ctrl-Click for Windows or Cmd-Click for Mac.', 'better-search-replace' ); ?></p>
 				</td>
 			</tr>
